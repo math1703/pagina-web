@@ -1,0 +1,7 @@
+// Exemplo de código JavaScript
+console.log("Página carregada!");
+
+// Adicionar evento de clique no botão
+document.querySelector("nav a").addEventListener("click", function() {
+  console.log("Clicou no link!");
+});
